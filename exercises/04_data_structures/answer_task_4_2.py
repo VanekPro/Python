@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 """
 Задание 4.2
@@ -16,6 +15,6 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
-new = mac.replace(':','.')
-print(new)
 
+new_mac = mac.replace(":", ".")
+print(new_mac)
